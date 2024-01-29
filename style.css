@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: azure;
+    background-color: rgb(238, 244, 244);
 }
 .header{
     display: flex;
@@ -11,39 +11,63 @@ body{
 img{
     width: 20px;
     height: 20px;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 50px;
     padding: 10px;
+    cursor: pointer;
 }
 .header h3{
-    margin-top: 30px;
+    margin-top: 25px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .header .login{
     display: flex;
+    cursor: pointer;
     
 }
 .header .cart{
     display: flex;
+    cursor: pointer;
 }
 .header .saller{
     display: flex;
 }
 .header .saller h3{
     margin-left: 50px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .header .dot{
     display: flex;
+    cursor: pointer;
 }
 .header input{
-    height: 15px;
-    width: 700px;
-    padding: 10px;
-    margin-top: 20px;
+    height: 0px;
+    width: 650px;
+    padding: 20px;
+    margin-top: 15px;
     margin-left: 50px;
     border-radius: 5px;
     border: none;
-    background-color: rgb(223, 227, 227);
+    background-color: azure;
 }
 .header h2{
     margin-left: 100px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: blue;
+}
+.table{
+    height: 130px;
+    width: auto;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.image img{
+    width: auto;
+    height: 200px;
 }
