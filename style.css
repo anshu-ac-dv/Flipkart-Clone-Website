@@ -9,28 +9,41 @@ body{
     box-shadow: 10px;
 }
 img{
-    width: 30px;
-    height: 30px;
-    margin-top: 10px;
-    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 10px;
+}
+.header h3{
+    margin-top: 30px;
 }
 .header .login{
     display: flex;
-    padding: 10px;
+    
 }
 .header .cart{
     display: flex;
-    padding: 10px;
 }
 .header .saller{
     display: flex;
-    padding: 10px;
+}
+.header .saller h3{
+    margin-left: 50px;
 }
 .header .dot{
     display: flex;
-    padding: 10px;
 }
 .header input{
-    height: 10px;
+    height: 15px;
+    width: 700px;
     padding: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(223, 227, 227);
+}
+.header h2{
+    margin-left: 100px;
 }
