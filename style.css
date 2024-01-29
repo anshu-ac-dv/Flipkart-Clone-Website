@@ -68,6 +68,9 @@ img{
     margin-right: 20px;
 }
 .image img{
-    width: auto;
+    width: 95%;
     height: 200px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 20px;
 }
